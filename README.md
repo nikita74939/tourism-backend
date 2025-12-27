@@ -386,19 +386,6 @@ backend/
 - **response.js**: Standardized API response format
 - **time.js**: Time zone conversion helpers
 
-## 📊 Database Schema
-
-Lihat `docs/erd.png` untuk Entity Relationship Diagram.
-
-**Tabel Utama:**
-- users
-- destinations
-- trips
-- itineraries
-- notifications
-- activities
-- currencies
-
 ## 🤝 Contributing
 
 1. Fork the repository
