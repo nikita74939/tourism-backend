@@ -51,7 +51,7 @@ const seedCurrencies = async () => {
     await testConnection();
 
     // Clear existing data (optional)
-    await Currency.destroy({ where: {}, truncate: true });
+    await Currency.destroy({ where: {} });
     console.log('🗑️  Cleared existing currencies');
 
     // Insert new data

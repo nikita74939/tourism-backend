@@ -90,8 +90,7 @@ const seedDestinations = async () => {
 
     await testConnection();
 
-    // Clear existing data (optional)
-    await Destination.destroy({ where: {}, truncate: true });
+    await Destination.destroy({ where: {} });
     console.log('🗑️  Cleared existing destinations');
 
     // Insert new data
@@ -104,6 +103,7 @@ const seedDestinations = async () => {
     process.exit(1);
   }
 };
+
 
 // Run seeder
 seedDestinations();
